@@ -15,10 +15,12 @@ Dependencies
 =============
 
 This driver depends on nothing outside of a typical Python installation,
-since it includes the minimal components of both the
-[Adafruit_GPIO](https://github.com/adafruit/Adafruit_Python_GPIO) and
-[Adafruit_PureIO](https://github.com/adafruit/Adafruit_Python_PureIO) 
-libraries required for the lower-level I2C interfacing.
+since it includes the minimal components of the following libraries
+required for the lower-level I2C interfacing:
+
+- Adafruit_GPIO (https://github.com/adafruit/Adafruit_Python_GPIO)
+- Adafruit_PureIO (https://github.com/adafruit/Adafruit_Python_PureIO)
+
 
 Usage Example
 =============
