@@ -2,26 +2,19 @@
 Introduction
 ============
 
-.. image:: https://readthedocs.org/projects/adafruit-circuitpython-fxas21002c/badge/?version=latest
-    :target: https://circuitpython.readthedocs.io/projects/fxas21002c/en/latest/
-    :alt: Documentation Status
+(Vanilla) Python module for the NXP FXAS21002C gyroscope.
 
-.. image :: https://img.shields.io/discord/327254708534116352.svg
-    :target: https://discord.gg/nBQh6qu
-    :alt: Discord
+Intended for use with Beaglebone or similar platforms
+which contain a standard CPython implementation and I2C
+bus access through standard Linux OS facilities.
 
-CircuitPython module for the NXP FXAS21002C gyroscope.
+Based on the original Adafruit FXAS21002C C/C++ driver from:
+https://github.com/adafruit/Adafruit_FXAS21002C
 
 Dependencies
 =============
+
 This driver depends on:
-
-* `Adafruit CircuitPython <https://github.com/adafruit/circuitpython>`_
-* `Bus Device <https://github.com/adafruit/Adafruit_CircuitPython_BusDevice>`_
-
-Please ensure all dependencies are available on the CircuitPython filesystem.
-This is easily achieved by downloading
-`the Adafruit library and driver bundle <https://github.com/adafruit/Adafruit_CircuitPython_Bundle>`_.
 
 Usage Example
 =============
@@ -30,10 +23,6 @@ See examples/simpletest.py for an example of the usage.
 
 Contributing
 ============
-
-Contributions are welcome! Please read our `Code of Conduct
-<https://github.com/adafruit/Adafruit_CircuitPython_fxas21002c/blob/master/CODE_OF_CONDUCT.md>`_
-before contributing to help this project stay welcoming.
 
 API Reference
 =============
